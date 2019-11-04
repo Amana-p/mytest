@@ -101,6 +101,24 @@
         top:-70px;
         padding-bottom: 10px;
     }
+    .container{
+        border:1px solid #808080;
+        position: absolute;
+        top:45%;
+        left:55%;
+        width:30%;
+      
+        padding-bottom:20px;
+    }
+    .form-group{
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    .checkbox{
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left:20px;
+    }
   </style>
   </head>
   <body>
@@ -150,5 +168,35 @@
                     </ul>
                 </div>  
         </div>
+        <div class="container">
+            <h3>Sign up for a free SaaS trial</h3>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control"  id="firstname" placeholder="First Name" name="FirstName">
+            </div>
+              <div class="form-group">
+                    <input type="text" class="form-control"  id="lastname" placeholder="Last Name" name="LastName">
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control"  id="email" placeholder="Company Email" name="email">
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control"  id="company" placeholder="Tarams" name="company">
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control"  id="jobtitle" placeholder="Job Title" name="jobtitle">
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control"  id="phonenumber" placeholder="Phone Number" name="number">
+                </div>
+              <div class="form-group">
+                <input type="password" class="form-control"id="pwd" placeholder="Enter password" name="pwd">
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="remember"> I agree to the <a>Evaluation terms</a> and <a>Privacy Policy</a></label>
+              </div>
+              <button type="submit" class="btn btn-primary">Get Started</button>
+            </form>
+          </div>
   </body>
 </html>
